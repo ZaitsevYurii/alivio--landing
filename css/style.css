@@ -534,3 +534,80 @@ body {
   color: #FFFFFF;
   opacity: 0.8;
 }
+
+.how {
+  padding: 170px 0 50px 0;
+}
+.how__head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.how__head-main {
+  margin-right: 30px;
+}
+.how__head-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+}
+.how__head-subtitle {
+  font-family: "Georgia", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+  max-width: 584px;
+}
+.how__head-text {
+  padding-top: 58px;
+  max-width: 671px;
+}
+
+.how__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 390px);
+  column-gap: 95px;
+}
+.how__card {
+  max-width: 390px;
+}
+.how__card:nth-child(2) {
+  padding-top: 289px;
+}
+.how__card:nth-child(3) {
+  padding-top: 54px;
+}
+.how__card-title {
+  padding-top: 135px;
+  padding-left: 88px;
+  margin-bottom: 55px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+  position: relative;
+}
+.how__card-title::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-number);
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+}
+.how__card-text {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+.how__card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
