@@ -1,0 +1,45 @@
+.about {
+   height: 895px;
+   padding: 175px 0;
+   background-image: url("../../img/bg/BG.jpg");
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+
+   &__inner {
+      max-width: 440px;
+   }
+
+   &__title {
+      font-family: 'Georgia', sans-serif;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 74px;
+      color: #01996D;
+      margin-bottom: 30px;
+   }
+
+   &__content {
+      margin-bottom: 50px;
+   }
+
+   &__text {
+      font-size: 20px;
+      line-height: 31px;
+      color: #484848;
+   }
+
+   &__link {
+      padding: 20px 50px;
+      display: inline-block;
+      min-height: 65px;
+      color: #FFFFFF;
+      transition: all .3s ease;
+
+      &:hover {
+         color: #FFFFFF;
+         opacity: .8;
+      }
+
+   }
+}

@@ -24,9 +24,6 @@
       }
    }
 
-   &__login-link--white {
-      color: #FFFFFF;
-   }
 }
 
 .sign:hover {
@@ -44,14 +41,16 @@
    border-radius: 4px;
 }
 
+.btn--white {
+   color: #FFFFFF;
+}
+
 .nav {
 
    &__menu {
       display: flex;
       gap: 70px;
    }
-
-   &__item {}
 
    &__link {
       color: #292929;
