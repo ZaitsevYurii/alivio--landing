@@ -1,0 +1,18 @@
+.footer {
+   padding: 105px 0 145px;
+   background: #245852;
+
+   &__logo-link {
+      display: block;
+      margin-bottom: 75px;
+   }
+
+   &__link {
+      display: block;
+      margin-bottom: 60px;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      color: #FFFFFF;
+   }
+}
