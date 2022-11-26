@@ -116,3 +116,38 @@
       color: #000000;
    }
 }
+
+
+@media (max-width:1093px) {
+
+   .products {
+      padding: 50px 0 70px 0;
+   }
+
+   .card {
+      position: inherit;
+   }
+
+   .products__content-subtitle {
+      font-size: 35px;
+   }
+
+   .products__content-text {
+      font-size: 18px;
+   }
+
+   .products__content-link {
+      padding: 10px 35px;
+   }
+
+   .products__content {
+      flex: 1 1 auto;
+   }
+}
+
+@media (max-width:992px) {
+   .products__inner {
+      flex-direction: column;
+      align-items: center;
+   }
+}

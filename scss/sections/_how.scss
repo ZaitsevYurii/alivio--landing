@@ -92,3 +92,33 @@
       object-fit: cover;
    }
 }
+
+@media (max-width:1302px) {
+   .how__head-text {
+      max-width: 580px;
+      font-size: 18px;
+   }
+
+   .how__head-subtitle {
+      font-size: 44px;
+   }
+
+   .how__cards {
+      grid-template-columns: repeat(auto-fit, 1fr);
+   }
+}
+
+
+@media (max-width:1025px) {
+   .how__head {
+      flex-direction: column;
+   }
+
+   .how__head-text {
+      padding-top: 28px;
+   }
+
+   .how__card:nth-child(2), .how__card:nth-child(3) {
+      padding-top: 0;
+  }
+}
